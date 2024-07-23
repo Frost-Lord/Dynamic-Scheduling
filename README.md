@@ -39,3 +39,6 @@ Tomasulo's Algorithm is a hardware algorithm for dynamic scheduling of instructi
 | F8       | 0     |
 | F9       | 0     |
 | F10      | 0     |
+
+# Inspired the project from
+https://www.cse.unsw.edu.au/~cs4211/seminars/w03-4up.pdf
