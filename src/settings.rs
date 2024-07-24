@@ -1,14 +1,8 @@
 #[derive(Clone)]
 pub struct BColors {
-    pub header: String,
     pub blue: String,
-    pub cyan: String,
     pub cyan_green: String,
-    pub warning: String,
-    pub fail: String,
     pub endc: String,
-    pub bold: String,
-    pub underline: String,
     pub purple: String,
     pub orange: String,
     pub yellow: String,
@@ -18,15 +12,9 @@ pub struct BColors {
 impl BColors {
     pub fn new() -> Self {
         BColors {
-            header: "\x1b[95m".to_string(),
             blue: "\x1b[94m".to_string(),
-            cyan: "\x1b[96m".to_string(),
             cyan_green: "\x1b[92m".to_string(),
-            warning: "\x1b[93m".to_string(),
-            fail: "\x1b[91m".to_string(),
             endc: "\x1b[0m".to_string(),
-            bold: "\x1b[1m".to_string(),
-            underline: "\x1b[4m".to_string(),
             purple: "\x1b[35m".to_string(),
             orange: "\x1b[33m".to_string(),
             yellow: "\x1b[93m".to_string(),
